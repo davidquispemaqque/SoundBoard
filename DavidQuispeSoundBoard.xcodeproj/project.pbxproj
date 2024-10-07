@@ -14,6 +14,7 @@
 		63A4A3D62CB490F60007FA2C /* DavidQuispeSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63A4A3D42CB490F60007FA2C /* DavidQuispeSoundBoard.xcdatamodeld */; };
 		63A4A3D82CB490FD0007FA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A4A3D72CB490FD0007FA2C /* Assets.xcassets */; };
 		63A4A3DB2CB490FD0007FA2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A4A3D92CB490FD0007FA2C /* LaunchScreen.storyboard */; };
+		63A4A3E32CB498C00007FA2C /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A4A3E22CB498C00007FA2C /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		63A4A3D72CB490FD0007FA2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A4A3DA2CB490FD0007FA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A4A3DC2CB490FD0007FA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A4A3E22CB498C00007FA2C /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				63A4A3CD2CB490F60007FA2C /* SceneDelegate.swift */,
 				63A4A3CF2CB490F60007FA2C /* ViewController.swift */,
 				63A4A3D12CB490F60007FA2C /* Main.storyboard */,
+				63A4A3E22CB498C00007FA2C /* SoundViewController.swift */,
 				63A4A3D72CB490FD0007FA2C /* Assets.xcassets */,
 				63A4A3D92CB490FD0007FA2C /* LaunchScreen.storyboard */,
 				63A4A3DC2CB490FD0007FA2C /* Info.plist */,
@@ -145,6 +148,7 @@
 				63A4A3CC2CB490F60007FA2C /* AppDelegate.swift in Sources */,
 				63A4A3D62CB490F60007FA2C /* DavidQuispeSoundBoard.xcdatamodeld in Sources */,
 				63A4A3CE2CB490F60007FA2C /* SceneDelegate.swift in Sources */,
+				63A4A3E32CB498C00007FA2C /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
