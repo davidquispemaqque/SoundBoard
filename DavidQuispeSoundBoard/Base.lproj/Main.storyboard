@@ -97,6 +97,20 @@
                                     <action selector="agregarTapped:" destination="1pW-FU-yt8" eventType="touchUpInside" id="6lk-45-1bR"/>
                                 </connections>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gdB-9S-qMW">
+                                <rect key="frame" x="148" y="434" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="cambiarVolumen:" destination="1pW-FU-yt8" eventType="valueChanged" id="KMP-Sx-lkN"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Q3-qG-bxA">
+                                <rect key="frame" x="205" y="248" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gbr-dO-mMR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -120,7 +134,9 @@
                         <outlet property="agregarButton" destination="AWT-tP-oCx" id="TEf-qD-D7Z"/>
                         <outlet property="grabarButton" destination="SI3-N0-ogY" id="o8h-jh-JRf"/>
                         <outlet property="nombreTextField" destination="YIz-L1-2XT" id="QPH-8g-OPA"/>
+                        <outlet property="recordingTimeLabel" destination="3Q3-qG-bxA" id="RMN-ar-tVq"/>
                         <outlet property="reproducirButton" destination="lHl-dL-Pl3" id="z9N-vF-wgX"/>
+                        <outlet property="volumenSlider" destination="gdB-9S-qMW" id="3DR-Tc-ut6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IpJ-KZ-r5w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
